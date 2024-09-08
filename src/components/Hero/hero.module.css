@@ -1,0 +1,130 @@
+.hero {
+    height: auto;
+}
+.container {
+    padding-top: 30px;
+}
+.row {
+    padding-top: 40px;
+}
+.leftColumn {
+    padding-top: 15px;
+}
+.textHighlight {
+    color: #ff4d6d;
+    font-size: clamp(2.0625rem, 1.1968rem + 3.2593vw, 3.4375rem);
+}
+.h1, .h2 {
+    font-size: clamp(1.3125rem, 0.8009rem + 1.9259vw, 2.125rem);
+    font-weight: bold;
+}
+
+.iconsContainer {
+    padding-top: 20px;
+} 
+.icons {
+    border: 2px solid #ff4d6d;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 25px 0 0;
+    cursor: pointer;
+}
+
+.heroButton {
+    padding: 11px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff4d6d;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+}
+.hero img {
+    height: 240px;
+    filter: drop-shadow(1px 1px 15px #ff4d6d);
+}
+
+/*--------------Responsive-------------*/
+
+@media (max-width: 767px) {
+    .container {
+        padding-top: 0;
+    }
+    .row {
+        padding-top: 0;
+    }
+    .left {
+        text-align: center;
+    }
+    .iconsContainer {
+        justify-content: center;
+    }
+    .icons {
+        border: 2px solid #ff4d6d;
+        padding: 5px;
+        margin: 0px 15px;
+    }
+    .rightColumn {
+        margin-top: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .heroButton {
+        font-size: 15px;
+    }
+    .hero img {
+        height: 330px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1199px)  {
+    .iconsContainer {
+        margin-top: 20px;
+    }
+    .icons {
+        border: 3px solid #ff4d6d;
+        padding: 10px;
+    }
+    .heroButton {
+        font-size: 15px;
+    }
+    .hero img {
+        height: 360px;
+    }
+}
+@media (min-width: 1200px) and (max-width:1399px) {
+    .iconsContainer {
+        margin-top: 20px;
+    }
+    .icons {
+        border: 3px solid #ff4d6d;
+        padding: 10px;
+    }
+    .heroButton {
+        font-size: 16px;
+    }
+    .hero img {
+        height: 400px;
+    }
+}
+@media (min-width: 1400px) {
+    .leftColumn {
+        margin-top: 25px;
+    }
+    .iconsContainer {
+        margin-top: 20px;
+    }
+    .icons {
+        border: 3px solid #ff4d6d;
+        padding: 10px;
+        margin: 0 35px 0 0;
+    }
+    .heroButton {
+        font-size: 18px;
+    }
+    .hero img {
+        height: 430px;
+    }
+}

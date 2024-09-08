@@ -1,0 +1,115 @@
+.about {
+    height: auto;
+}
+.row {
+    margin-top: 25px;
+}
+.left {
+    padding: 10px;
+}
+.aboutImage {
+    margin: 10px;
+    height: 250px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile {
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.title {
+    position: relative;
+    display: inline-block;
+    font-size: clamp(1.875rem, 1.644rem + 0.8696vw, 2.1875rem);
+}
+
+.title::after {
+    content: "";
+    height: 40px;
+    width: 59px;
+    position: absolute;
+    background-color: #ff4d6e67;
+    left: 85%;
+    top: -5px;
+    z-index: -1;
+}
+.p {
+    position: relative;
+    font-size: clamp(1rem, 0.8365rem + 0.6154vw, 1.25rem);
+}
+.skills {
+    padding-top: 15px;
+    position: relative;
+}
+
+.skills::after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 7px;
+    background-color: #ff4d6e86;
+    left: -30px;
+    top: 27px;
+}
+
+.techstacks {
+    padding-top: 10px;
+}
+
+.techstacks svg {
+    padding-right: 25px;
+    padding-top: 7px;
+    height: 45px;
+}
+.aboutBtn {
+    justify-content: start;
+}
+.button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff4d6d;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+.button:hover {
+    transform: scale(1.1) translateY(-3px);
+}
+
+
+/* -----------RESPONSIVE------------ */
+@media (min-width: 425px) and (max-width: 767px) {
+    .left {
+        padding: 15px 0;
+    }
+    .right {
+        margin-top: 25px;
+    }
+    .aboutBtn {
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .aboutImage {
+        height: 300px;
+        
+    }
+    
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .aboutImage {
+        height: 350px;
+    }
+}
+@media (min-width: 1200px)  {
+    .aboutImage {
+        height: 370px;
+    }
+}
