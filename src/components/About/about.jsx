@@ -15,7 +15,9 @@ const about = () => {
                 </div>
                 <div className={`${Style.right} col-md-6`}>
                     <h1 className={Style.title}>About Me</h1>
-                    <p className={Style.p}>I want to face new Challenges and learn through experience. My goal is to write clean, readable code to be very understandable and accessible for future use. I'm passionate about building websites that support online company growth and prosperity. Together, let's design a website that will boost the success of your company.</p>
+                    <p className={Style.p}>
+                        Hi, I'm Hannah Mangulabnan, a passionate web developer with a love for creating clean, user-friendly designs and responsive websites. I'm focus on honing my skills in frontend development but also aspiring to become a full-stack developer. I enjoy working with modern technologies like React, JavaScript, and CSS to bring ideas to life. When I'm not coding, you can find me exploring new trends in tech or working on personal projects that challenge my creativity and skills.
+                    </p>
                     <div className={Style.skills} >
                         <h4>My skills are:</h4>
                         <div className={Style.techstacks}>
