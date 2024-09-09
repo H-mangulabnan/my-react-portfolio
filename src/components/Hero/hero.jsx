@@ -42,7 +42,7 @@ const hero = () => {
                                     </a>
                                 </div>
                                 <div className={Style.icons}>
-                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/H-mangulabnan" target="_blank" rel="noopener noreferrer">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 496 512"
@@ -55,7 +55,7 @@ const hero = () => {
                                     </a>
                                 </div>
                                 <div className={Style.icons}>
-                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/hannah-mangulabnan-a235a72a1/" target="_blank" rel="noopener noreferrer">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 448 512"
