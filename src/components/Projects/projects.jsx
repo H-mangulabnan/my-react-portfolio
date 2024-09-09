@@ -41,7 +41,7 @@ const projects = () => {
 
 
   return (
-    <div className="container">
+    <div id='project' className={`${Style.project} container py-5`}>
       <div className="text-center">
           <h1 className={Style.projectTitle}>Projects</h1>
       </div>
